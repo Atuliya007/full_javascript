@@ -253,3 +253,26 @@ console.log("Welcome to JavaScript programming!");
 // let even = num1.filter(x => x % 2 === 0);
 // console.log(even); // Output: [2, 4]
 
+
+
+// // random number game
+// // random number game
+// let num = Math.floor(Math.random() * 100) + 1;
+// let guess = Number(prompt("Enter a number between 1 and 100"));
+// let score = 100;
+// for (let i = 0; i < 100; i++) {
+//     if (guess < num) {
+//         console.log("Number is greater than your guess");
+//         guess = Number(prompt("Enter a number between 1 and 100"));
+//         score--;
+//     }
+//     else if (guess > num) {
+//         console.log("Number is less than your guess");
+//         guess = Number(prompt("Enter a number between 1 and 100"));
+//         score--;
+//     }
+//     else {
+//         console.log("You guessed the number! Your points are:", score);
+//         break;
+//     }
+// }
